@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/python3
 def new_in_list(my_list, idx, element):
     count = len(my_list)
-    if idx < 0 or idx >= count:
+    if idx < 0 or idx >= (count - 1):
         return my_list
     else:
         new_list = my_list.copy()
