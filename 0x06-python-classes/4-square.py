@@ -1,4 +1,5 @@
 #!/usr/bin/pytho3
+
 """Deine a class Square."""
 
 
